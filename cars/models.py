@@ -35,4 +35,4 @@ class CarInvetory(models.Model):
             ordering = ['-created_at']
 
       def __str__(self):
-            return f'{self.cars_cout} - {self.cars_value}' 
+            return f'{self.cars_count} - {self.cars_value}' 
